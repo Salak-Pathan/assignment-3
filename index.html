@@ -31,6 +31,14 @@
             }
         }
     </script>
+    <style>
+        .paper-pic{
+            background-image: url(./assets/bg.jpg);
+            background-repeat: no-repeat;
+            width: 100%;
+            background-size: cover;
+        }
+    </style>
 
 
 </head>
@@ -397,7 +405,7 @@
 
             </section>
             <!-- Let’s Discuss Next Project slide -->
-            <section class="flex justify-center items-center flex-col mx-32 space-y-8 w-auto ">
+            <section class="flex justify-center items-center flex-col mx-32 space-y-8 w-auto  ">
                 <a class="btn  items-center mx-32 bg-green "><svg xmlns="http://www.w3.org/2000/svg" fill="none"
                         viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -406,7 +414,25 @@
                 <p class="font-black text-5xl text-center">Let’s Discuss Next Project</p>
                 <p class="space-x-96">The barn house enchants with its mix of rustic allure and contemporary elegance,
                     showcasing aged wood and polished metal details.</p>
-
+                <div class="grid grid-cols-1 md:grid-cols-2 md:w-[50%] mx-auto gap-4 px-4">
+                    <input type="text" placeholder="First Name*"
+                        class="input input-borderd  w-full max-w-md rounded-3xl">
+                    <input type="text" placeholder="First Name*"
+                        class="input input-borderd w-full max-w-md rounded-3xl">
+                    <input type="text" placeholder="First Name*"
+                        class="input input-borderd w-full max-w-md rounded-3xl">
+                    <input type="text" placeholder="First Name*"
+                        class="input input-borderd w-full max-w-md rounded-3xl">
+                </div>
+                <div>
+                    <textarea
+                        class="textarea textarea-bordered text-left items-center w-[100%] md:w-auto flex my-8 h-40 md:mx-auto col-span-4" placeholder="Write your message here"name="" id=""></textarea>
+                        <a class="btn bg-green w-auto ">View details <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor " class="bi bi-arrow-up-right-circle-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
+                        </svg></a>
+                </div>
             </section>
 
 
